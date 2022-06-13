@@ -1,4 +1,7 @@
 {
+  "name": "emotion-twin",
+  "private": true,
+  "description": "This is default setup of twin macro with {emotion + typescript}",
   "babelMacros": {
     "twin": {
       "preset": "emotion"
@@ -7,7 +10,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/css": "^11.5.0",
@@ -27,6 +31,9 @@
     "@types/react": "^17.0.34",
     "babel-loader": "^8.2.3",
     "babel-plugin-macros": "^3.1.0",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.3.1",
     "tailwindcss": "^3.1.2",
     "twin.macro": "^3.0.0-rc.2",
